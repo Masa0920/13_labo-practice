@@ -1,0 +1,35 @@
+.navbar {
+   width: 100%;
+   position: fixed;
+}
+.navbar ul {
+   justify-content: center;
+   display: flex;
+   margin: 0;
+   padding: 0;
+}
+.navbar li {
+   text-align: center;
+   width: 150px;
+   list-style: none;
+   font-weight: 800;
+   background-color: rgba(0,0,0,0.7);
+   margin: 0 1px;
+   transform:skewX(-20deg);
+   cursor: pointer;
+}
+.navbar a {
+   text-decoration: none;
+   color: white;
+}
+
+.nav-defo {
+   height: 50px;
+   line-height: 50px;
+}
+.nav-large {
+   font-size: 20px;
+   height: 80px;
+   line-height: 80px;
+   margin-right: 18px !important;
+}
