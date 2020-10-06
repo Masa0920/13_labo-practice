@@ -7,12 +7,11 @@ import Contact from "./screens/Contact"
 import News from "./screens/News"
 import Reservation from "./screens/Reservation"
 import Sponsors from "./screens/Sponsors"
-import NewsCard from './components/NewsCard';
 
 function App() {
   return (
     <Router>
-      {/* <Navbar/>
+      <Navbar/>
       <Switch>
         <Route exact path="/" render={() => <Labo/>} />
         <Route exact path="/company" render={() => <Company/>} />
@@ -20,8 +19,7 @@ function App() {
         <Route exact path="/news" render={() => <News/>} />
         <Route exact path="/reservation" render={() => <Reservation/>} />
         <Route exact path="/sponsors" render={() => <Sponsors/>} />
-      </Switch> */}
-      <NewsCard/>
+      </Switch>
     </Router>
   );
 }
